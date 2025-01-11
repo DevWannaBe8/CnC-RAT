@@ -5,14 +5,18 @@ Description
 
 This script is a Remote Access Trojan (RAT) that allows unauthorized access to a victim's computer. Once executed, the RAT connects to a Command and Control (C&C) server and gives the attacker full control over the victim's system. It is capable of performing various actions such as keylogging, taking screenshots, uploading/downloading files, executing commands, and more. The script runs silently in the background, making it difficult for the victim to notice.
 
+Additionally, the script has the capability to send sensitive data (e.g., WiFi passwords, system info, etc.) to a Discord webhook, which allows the attacker to retrieve the stolen data in real-time.
+
 The victim will not see any visible signs of the attack, and the script will continue running even after a system reboot (on Windows systems).
 
 Warning: This script is for educational purposes only. Do not use it for malicious purposes. Using this software without the explicit consent of the system owner is illegal and unethical. Please ensure that you follow the law and use this script responsibly.
 Usage
 
     Customize the C&C server IP and port in the script to establish a connection.
+    Set up a Discord webhook in the script to send stolen data to a specific channel.
     The script will attempt to connect to the specified server, and once connected, it will start listening for commands.
     The attacker can issue commands like keylogging, capturing screenshots, uploading/downloading files, and more.
+    The script will send critical data (such as WiFi credentials, system data, etc.) to the specified Discord webhook.
 
 Disclaimer
 
@@ -28,5 +32,3 @@ Contribution
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. I welcome any improvements or suggestions that align with the project's purpose.
 
 Thank you for checking out the project! Please make sure to use it responsibly and ethically.
-
-Make sure to tailor the contact and contribution sections according to your own preferences or requirements.
